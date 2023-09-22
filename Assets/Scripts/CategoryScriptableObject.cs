@@ -7,8 +7,4 @@ public class CategoryScriptableObject : ScriptableObject
 {
     public string Name;
     public List<QuestionScriptableObject> Questions;
-
-
-
-
 }

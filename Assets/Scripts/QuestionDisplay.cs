@@ -23,9 +23,7 @@ public class QuestionDisplay : MonoBehaviour
             answersList[i].text = questionSO.Answers[i];
 
         image.sprite = questionSO.Image;
-        correctAnswerIndex = questionSO.CorrectAnswerIndex;
-
-        
+        correctAnswerIndex = questionSO.CorrectAnswerIndex; 
     }
 
     public void HighlightCorrectAnswer()
@@ -35,6 +33,6 @@ public class QuestionDisplay : MonoBehaviour
 
     public void Reset()
     {
-        answersList[correctAnswerIndex].color = Color.white;
+        answersList[correctAnswerIndex].color = new Color(1, 1, 1, 1);
     }
 }
