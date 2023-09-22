@@ -149,6 +149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9027645552023278685}
+  - component: {fileID: 1247665711594550966}
   m_Layer: 5
   m_Name: QuestionPanel
   m_TagString: Untagged
@@ -177,6 +178,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1247665711594550966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566059460378978191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9266384db67f68468cd84c362667242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionSO: {fileID: 11400000, guid: 72d432f9c5da41344846d969dc91ce96, type: 2}
+  answersList: []
+  image: {fileID: 0}
+  correctAnswerIndex: 0
 --- !u!1 &3862253918758977216
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,8 +356,8 @@ GameObject:
   - component: {fileID: 5393332409591037580}
   - component: {fileID: 7257002979440492190}
   m_Layer: 5
-  m_Name: Q1
-  m_TagString: Untagged
+  m_Name: A1
+  m_TagString: Answer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -609,8 +626,8 @@ GameObject:
   - component: {fileID: 8803034720275451326}
   - component: {fileID: 860818265384132191}
   m_Layer: 5
-  m_Name: Q3
-  m_TagString: Untagged
+  m_Name: A3
+  m_TagString: Answer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -744,8 +761,8 @@ GameObject:
   - component: {fileID: 4728865057149932640}
   - component: {fileID: 2675767340584287631}
   m_Layer: 5
-  m_Name: Q4
-  m_TagString: Untagged
+  m_Name: A4
+  m_TagString: Answer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -879,8 +896,8 @@ GameObject:
   - component: {fileID: 2265132091097095034}
   - component: {fileID: 2388012896944652198}
   m_Layer: 5
-  m_Name: Q2
-  m_TagString: Untagged
+  m_Name: A2
+  m_TagString: Answer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
