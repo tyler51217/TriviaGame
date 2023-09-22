@@ -14,17 +14,18 @@ public class QuestionSetup : MonoBehaviour
     public void Setup(QuestionScriptableObject questionScriptableObject)
     {
         qso = questionScriptableObject;
-        b.onClick.AddListener(DisableButton);
-        b.onClick.AddListener(delegate { display.DisplayQuestion(qso); });
-        b.onClick.AddListener(delegate { display.gameObject.SetActive(true); });
+        b.onClick.AddListener(OnQuestionClick);
+    }
+
+    public void OnQuestionClick() 
+    {
+        DisableButton();
+        display.DisplayQuestion(qso);
+        display.gameObject.SetActive(true);
     }
 
     private void DisableButton()
     {
-        image.color = new Color(image.color.r, image.color.g, image.color.b, 100);
+        image.color = new Color(0.5f, 0.5f, 0.5f, 100);
     }
-
-    
-
-
 }
