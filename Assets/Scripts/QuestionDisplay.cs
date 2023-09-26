@@ -5,15 +5,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-//this script will be attacted to every question prefab
 public class QuestionDisplay : MonoBehaviour
 {
-    //public QuestionScriptableObject questionSO;
     public TMP_Text question;
     public List<TMP_Text> answersList;
     public Image image;
     public int correctAnswerIndex;
-    
     
     public void DisplayQuestion(QuestionScriptableObject questionSO)
     {
@@ -24,17 +21,23 @@ public class QuestionDisplay : MonoBehaviour
 
         image.sprite = questionSO.Image;
         correctAnswerIndex = questionSO.CorrectAnswerIndex;
-
-        
     }
 
     public void HighlightCorrectAnswer()
     {
+        if (answersList[correctAnswerIndex].color == Color.green)
+        {
+            return;
+        }
         answersList[correctAnswerIndex].color = Color.green;
+        var b = answersList[correctAnswerIndex].gameObject.AddComponent<Button>();
+        b.onClick.AddListener(delegate { Reset(b); });
     }
 
-    public void Reset()
+    public void Reset(Button b)
     {
         answersList[correctAnswerIndex].color = Color.white;
+        this.gameObject.SetActive(false);
+        Destroy(b);
     }
 }
