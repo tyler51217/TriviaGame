@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class QuestionSetup : MonoBehaviour
 {
-    //call scriptable object. set button's onclick
     public QuestionScriptableObject qso;
     public Button b;
     public Image image;
@@ -26,6 +25,6 @@ public class QuestionSetup : MonoBehaviour
 
     private void DisableButton()
     {
-        image.color = new Color(0.5f, 0.5f, 0.5f, 100);
+        image.color = new Color(image.color.r, image.color.g, image.color.b, .35f);
     }
 }
