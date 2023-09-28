@@ -17,7 +17,7 @@ public class CategorySetup : MonoBehaviour
     public void Setup(CategoryScriptableObject categoryScriptableObject)
     {
         cso = categoryScriptableObject;
-        title.text = cso.name;
+        title.text = cso.Name;
 
         for(int i = 0; i < questionSetups.Count; i++)
         {
