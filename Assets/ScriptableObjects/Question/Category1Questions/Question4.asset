@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdd6985625b3f44d835a2823adc782b, type: 3}
   m_Name: Question4
   m_EditorClassIdentifier: 
-  QuestionText: placeholder question
+  QuestionText: When a queen's pheromones don't match the hive's, the worker bees
+    do what?
   Answers:
-  - answer1
-  - answer2
-  - answer3
-  - answer4
-  Image: {fileID: 0}
+  - A. Kill the queen
+  - B. Evict the queen
+  - C. Leave the hive
+  - D. Nothing
+  Image: {fileID: 21300000, guid: 8cea77124c83e6a459c01d4f78d80b77, type: 3}
   CorrectAnswerIndex: 0

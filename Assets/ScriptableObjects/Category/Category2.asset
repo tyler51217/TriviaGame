@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f975d6c369a520479c98d417ff5929f, type: 3}
   m_Name: Category2
   m_EditorClassIdentifier: 
-  Name: Category2
+  Name: Random
   Questions:
   - {fileID: 11400000, guid: 674b9949a2d77e24ba97739ba91fc7bf, type: 2}
   - {fileID: 11400000, guid: c9efcc86ae79be844bae247448e74edc, type: 2}

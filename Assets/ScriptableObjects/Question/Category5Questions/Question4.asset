@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdd6985625b3f44d835a2823adc782b, type: 3}
   m_Name: Question4
   m_EditorClassIdentifier: 
-  QuestionText: placeholder question
+  QuestionText: 'The most expensive diamond sold for:'
   Answers:
-  - answer1
-  - answer2
-  - answer3
-  - answer4
-  Image: {fileID: 0}
-  CorrectAnswerIndex: 0
+  - A. $50 Million
+  - B. $60 Million
+  - C. $70 Million
+  - D. $80 Million
+  Image: {fileID: 21300000, guid: f5d0c2be354f7ff43824f71e5ea0159c, type: 3}
+  CorrectAnswerIndex: 2

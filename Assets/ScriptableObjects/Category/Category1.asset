@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f975d6c369a520479c98d417ff5929f, type: 3}
   m_Name: Category1
   m_EditorClassIdentifier: 
-  Name: category 1
+  Name: Animals
   Questions:
   - {fileID: 11400000, guid: 72d432f9c5da41344846d969dc91ce96, type: 2}
   - {fileID: 11400000, guid: a6f21f373759f534da1d8c1ee77e9c63, type: 2}

@@ -19,7 +19,10 @@ public class QuestionDisplay : MonoBehaviour
         for(int i = 0; i < answersList.Count; i++)
             answersList[i].text = questionSO.Answers[i];
 
+        if (questionSO.Image != null)
+            image.gameObject.SetActive(true);
         image.sprite = questionSO.Image;
+
         correctAnswerIndex = questionSO.CorrectAnswerIndex;
     }
 
@@ -37,6 +40,7 @@ public class QuestionDisplay : MonoBehaviour
     public void Reset(Button b)
     {
         answersList[correctAnswerIndex].color = Color.white;
+        image.gameObject.SetActive(false);
         this.gameObject.SetActive(false);
         Destroy(b);
     }
