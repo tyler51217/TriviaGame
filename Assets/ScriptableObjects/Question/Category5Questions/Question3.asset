@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdd6985625b3f44d835a2823adc782b, type: 3}
   m_Name: Question3
   m_EditorClassIdentifier: 
-  QuestionText: placeholder question
+  QuestionText: What are the chances of getting 3 yolks in 1 egg? IRL
   Answers:
-  - answer1
-  - answer2
-  - answer3
-  - answer4
+  - A. 1/1,000
+  - B. 1/10,000,000
+  - C. 1/25,000,000
+  - D. No documented triple yolk
   Image: {fileID: 0}
-  CorrectAnswerIndex: 0
+  CorrectAnswerIndex: 2

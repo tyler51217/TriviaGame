@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdd6985625b3f44d835a2823adc782b, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  QuestionText: placeholder question
+  QuestionText: What is the name of this snowman?
   Answers:
-  - answer1
-  - answer2
-  - answer3
-  - answer4
-  Image: {fileID: 0}
-  CorrectAnswerIndex: 0
+  - A. Josh
+  - B. Kristoff
+  - C. Sven
+  - D. Olaf
+  Image: {fileID: 21300000, guid: 1cb8dd4fdade44049b59a86c5aed6718, type: 3}
+  CorrectAnswerIndex: 3

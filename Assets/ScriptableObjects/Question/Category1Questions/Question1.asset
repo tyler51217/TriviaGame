@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdd6985625b3f44d835a2823adc782b, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  QuestionText: what does phantom drop?
+  QuestionText: What is the name of this animal?
   Answers:
-  - membrane
-  - rotten flesh
-  - slow falling
-  - diamonds
-  Image: {fileID: 0}
+  - A. Capybara
+  - B. Platypus
+  - C. Anteater
+  - D. Mule
+  Image: {fileID: 21300000, guid: 216b94966139a8443abb07d17f96b43e, type: 3}
   CorrectAnswerIndex: 0
